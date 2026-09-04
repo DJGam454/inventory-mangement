@@ -30,6 +30,7 @@ namespace InventoryAPI.Models
         public int NewQuantity { get; set; }
 
         // Navigation property
+        [System.Text.Json.Serialization.JsonIgnore]
         public virtual InventoryItem? InventoryItem { get; set; }
     }
 

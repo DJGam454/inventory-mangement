@@ -52,3 +52,7 @@ backend/**/*.suo
 
 # Azurite local storage
 azurite-data/
+
+# SQLite temporary files
+*.db-shm
+*.db-wal
